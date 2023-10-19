@@ -1,3 +1,9 @@
+# This project forked from eaccmk/node-app-http-docker on github here: https://github.com/eaccmk/node-app-http-docker
+# The healthcheck endpoint is the only one edited to fit needs of POC
+|**GET**                | **R**ead        | `http://0.0.0.0:8080/` <br /> `http://0.0.0.0:8080/health`   
+#
+#
+
 # node-app-http-docker
 
 # Table of Contents

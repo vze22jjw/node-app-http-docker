@@ -21,7 +21,7 @@ const server = http.createServer(async (req, res) => {
         // console.log("Called GET : 0.0.0.0:8080/health");
         const healthcheck = {
             uptime: process.uptime(),
-            message: "OK",
+            message: "Automate all the things!",
             timestamp: Date.now(),
         };
         res.end(JSON.stringify(healthcheck));
